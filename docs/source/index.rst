@@ -10,3 +10,4 @@ SharpC2 Documentation
    handlers
    payloads
    drones
+   tasks
