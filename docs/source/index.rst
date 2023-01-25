@@ -12,3 +12,4 @@ SharpC2 Documentation
    payloads
    drones
    tasks
+   events
