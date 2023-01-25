@@ -8,6 +8,7 @@ SharpC2 Documentation
    building
    running
    handlers
+   hosted-files
    payloads
    drones
    tasks
