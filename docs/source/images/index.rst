@@ -5,8 +5,8 @@ SharpC2 Documentation
    :maxdepth: 2
    :caption: Contents:
 
+   getting-started
    building
-   running
    handlers
    payloads
    drones
