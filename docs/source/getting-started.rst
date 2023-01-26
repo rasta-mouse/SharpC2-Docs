@@ -35,7 +35,7 @@ Only a Windows build, `client-windows.zip`, is provided at this time.  It is bui
    PS C:\Users\Daniel\Desktop> cd .\Client_1.0.0.1_Test\
    PS C:\Users\Daniel\Desktop\Client_1.0.0.1_Test> .\Client_1.0.0.1_x64.msix
 
-The installer is signed with my own key.  Should you want to build with your own key, see the ``Building`` page.
+The installer is signed with my own key.  Should you want to build with your own key, see the `building`_ page.
 
 .. image:: /images/getting-started/installer.png
 
