@@ -48,4 +48,4 @@ To connect to the Team Server, enter its IP address, a nick for yourself, and th
 
 Ensure that the certificate thumbprint matches the console output of the Team Server.
 
-.. image:: /images/getting-started/thumprint.png
+.. image:: /images/getting-started/thumbprint.png
