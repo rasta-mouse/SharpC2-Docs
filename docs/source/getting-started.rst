@@ -6,7 +6,7 @@ The easiest way to get started is to download the latest `release builds <https:
 Team Server
 -----------
 
-The Team Server, `teamserver-linux.zip`, is only built to run on Linux.
+The Team Server, ``teamserver-linux.zip``, is only built to run on Linux.
 
 .. code-block::
 
@@ -15,7 +15,7 @@ The Team Server, `teamserver-linux.zip`, is only built to run on Linux.
    ~$ cd SharpC2/
    ~/SharpC2$ chmod +x TeamServer
 
-Run the `TeamServer` executable, providing the IP address of the server and a shared password to connect with.  The IP is used to generate a self-signed SSL certificate for the management API.
+Run the ``TeamServer`` executable, providing the IP address of the server and a shared password to connect with.  The IP is used to generate a self-signed SSL certificate for the management API.
 
 .. code-block::
 
@@ -26,7 +26,7 @@ Run the `TeamServer` executable, providing the IP address of the server and a sh
 Client
 ------
 
-Only a Windows build, `client-windows.zip`, is provided at this time.  It is built as an MSIX package which you must install.
+Only a Windows build, ``client-windows.zip``, is provided at this time.  It is built as an MSIX package which you must install.
 
 .. code-block::
 
