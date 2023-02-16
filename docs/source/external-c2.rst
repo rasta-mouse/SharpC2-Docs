@@ -5,21 +5,26 @@ External C2 allow a 3rd application to act as a communication layer between the 
 
 .. graphviz::
 
-    digraph G {
-        rankdir="LR";
+   digraph foo {
+    rankdir="LR";
+    node [shape=box];
 
-        node [shape=box];
+    teamserver [label="Team Server"];
+    controller [label="Controller"];
+    client [label="Client"];
+    drone [label="Drone"];
 
-        tc [label="Team Server"];
-        c1 [label="3rd Party Controller"];
-        c2 [label="3rd Party Client"];
-        dr [label="Drone"];
+    teamserver -> controller [label="C2 Frames"];
+    controller -> client [label="Custom C2"];
+    client -> drone [label="C2 Frames"];
 
-        tc <-> c1 [label="C2 Frames"];
-        c1 <-> c2 [label="Custom C2 Protocol"];
-        c2 <-> dr [label="C2 Frames"];
-    }
+    controller -> teamserver;
+    client -> controller;
+    drone -> client
+   }
 
+
+|
 
 ExternalC2.NET
 --------------
