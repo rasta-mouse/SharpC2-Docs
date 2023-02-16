@@ -13,3 +13,4 @@ SharpC2 Documentation
    drones
    tasks
    events
+   external-c2

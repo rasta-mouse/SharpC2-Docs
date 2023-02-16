@@ -81,3 +81,5 @@ The External handler is an egress handler, and takes 2 options:
   * The Team Server will bind to this port and wait for a connection from a 3rd party controller.
 
 .. image:: /images/handlers/ext.png
+
+See the :doc:`external-c2` page for more information on leverage this handler.
