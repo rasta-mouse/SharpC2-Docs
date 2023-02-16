@@ -20,14 +20,15 @@ External C2 allow a 3rd application to act as a communication layer between the 
         c2 <-> dr [label="C2 Frames"];
     }
 
+
 ExternalC2.NET
-==============
+--------------
 
 The SharpC2 solution contains a .NET library to simplify the process of implementing ExternalC2.  Example Controller and Client projects are also provided.
 
 
-Controller
-==========
+3rd Party Controller
+--------------------
 
 The controller can leverage the ``ExternalC2.NET.Server`` namespace.  It must instantiate a new ``ServerController`` class with the IP address and port of the ExternalC2 handler, and then call ``Connect``.
 
@@ -86,8 +87,8 @@ The controller must then provide the payload to the 3rd party client.  The clien
     }
 
 
-Client
-======
+3rd Party Client
+----------------
 
 The client can leverage the ``ExternalC2.NET.Client`` namespace.  It should initiate communication with your 3rd controller and either send or receive a pipename.  A ``ClientController`` class should be instantiated using that pipename.
 
