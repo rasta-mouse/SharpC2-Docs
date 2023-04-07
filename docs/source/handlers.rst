@@ -10,15 +10,19 @@ Click on the ``+`` button to add a handler of the selected type.
 HTTP
 ----
 
-The HTTP handler is an egress handler, and has 4 options:
+The HTTP handler is an egress handler, and has 5 options:
 
 * Name
 
   * A unique name to identiy the handler.
 
+* C2 Profile
+
+  * The C2 profile to apply to the handler.  See the :doc:`c2-profiles` page for more information.
+
 * Bind Port
 
-  * The port to bind to on the Team Server.  Useful if you want to bind to an odd port and redirect traffic using a redirector (iptables, apache, nginx, etc).
+  * The port to bind to on the Team Server.  Useful if you want to bind to an odd port and redirect traffic using a redirector.
 
 * Connect Address
 
