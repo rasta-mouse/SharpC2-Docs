@@ -8,6 +8,7 @@ SharpC2 Documentation
    getting-started
    building
    handlers
+   c2-profiles
    hosted-files
    payloads
    drones

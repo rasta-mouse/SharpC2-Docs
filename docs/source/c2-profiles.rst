@@ -6,14 +6,17 @@ A C2 Profile can be used to customise/override default settings and behavours of
 HTTP
 ----
 
-======     =====
-Option     Description
-======     =====
-Sleep      The sleep interval of the implant in seconds
-Jitter     The jitter of the sleep interval as a percentage
-GetPaths   The URL paths to use on GET requests
-PostPaths  The URL paths to use on POST requests
-=====      =====
++-----------+--------------------------------------------------+--------------+
+| Option    | Description                                      | Data Type    |
++===========+==================================================+==============+
+| Sleep     | The sleep interval of the implant in seconds     |  ``Int32``   |
++-----------+--------------------------------------------------+--------------+
+| Jitter    | The jitter of the sleep interval as a percentage |  ``Int32``   |
++-----------+--------------------------------------------------+--------------+
+| GetPaths  | The URL paths to use on GET requests             | ``String[]`` |
++-----------+--------------------------------------------------+--------------+
+| PostPaths | The URL paths to use on POST requests            | ``String[]`` |
++-----------+--------------------------------------------------+--------------+
 
 .. note::
     The GET and POST paths are selected randomly on each use.
