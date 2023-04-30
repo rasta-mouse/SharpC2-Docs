@@ -15,3 +15,4 @@ SharpC2 Documentation
    tasks
    events
    external-c2
+   webhooks
