@@ -4,6 +4,13 @@ Building
 Team Server
 -----------
 
+In order to compile the TeamServer and Client successfully you will need to add the code-offensive.net nuget feed as a new Nuget source
+
+.. code-block::
+
+   $ dotnet nuget add source https://nuget.code-offensive.net/v3/index.json -n code-offensive.net
+
+
 Most people will want to build the Team Server for Linux and run it on an Ubuntu VM (or other distro.)
 
 .. code-block::
